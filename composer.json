@@ -1,15 +1,9 @@
 {
-  "name": "vendor_name/Quotes",
-  "description": "description",
-  "minimum-stability": "stable",
-  "license": "proprietary",
-  "authors": [
-    {
-      "name": "jeffrey",
-      "email": "email@example.com"
-    }
-  ],
-  "require": {
+  "require" : {
     "php" : "7.4.*"
+  },
+  "require-dev": {
+    "heroku/heroku-buildpack-php": "*"
   }
 }
+
